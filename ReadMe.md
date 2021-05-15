@@ -8,16 +8,16 @@ Please follow the instruction to prepare yourself for the course.
 ## 1. Create Folder Structure
 
 ```cmd
-c:\>md react-native-training
-c:\>md react-native-training\trainers-work
-c:\>md react-native-training\my-work
+c:\>md python-training
+c:\>md python-training\trainers-work
+c:\>md python-training\my-work
 ```
 
 #### Folder Structure should be something like this
 
 <pre>
 [c drive]
-    [react-native-training]
+    [python-training]
         [trainers-work]
             
         [my-work]
@@ -28,7 +28,7 @@ c:\>md react-native-training\my-work
 ## 2. Clone Trainer's Repository to trainers-work folder
 
 ```cmd
-c:\react-native-traing\trainers-work> git clone https://github.com/vivekduttamishra/202103-lnt-reactnative .
+c:\python-training\trainers-work> git clone https://github.com/vivekduttamishra/202101-lnt-py .
 ```
 
 ### Notes
@@ -43,11 +43,11 @@ c:\react-native-traing\trainers-work> git clone https://github.com/vivekduttamis
 ## 3. Copy the following files from trainers-work to my-work folder
 
 ```cmd
-c:\react-native-training\trainers-work> copy git-*.* ..\my-work
+c:\python-training\trainers-work> copy git-*.* ..\my-work
 
-c:\react-native-training\trainers-work> cd ..\my-work
-c:\react-native-training\my-work> git-ignore
-c:\react-native-training\my-work> git-ignore-nodejs
+c:\python-training\trainers-work> cd ..\my-work
+c:\python-training\my-work> git-ignore
+c:\python-training\my-work> git-ignore-nodejs
 
 ```
 
@@ -58,7 +58,7 @@ c:\react-native-training\my-work> git-ignore-nodejs
 #### Note: 
 
 1. You may need to create an account on github.com
-2. Assuming that your url is  https://github.com/participant01/react-native.git
+2. Assuming that your url is  https://github.com/participant01/python.git
 
 
 
@@ -66,7 +66,7 @@ c:\react-native-training\my-work> git-ignore-nodejs
 
 
 ```cmd
-c:\react-native-training\my-work>git-init your-github-repo-url
+c:\python-training\my-work>git-init your-github-repo-url
 
 ```
 ## 6. Share the link of your repository in **Partcipant Information Form** that would be shared during the training.
@@ -77,7 +77,7 @@ c:\react-native-training\my-work>git-init your-github-repo-url
 ## To download trainer-work whenever required
 
 ```cmd
-c:\react-native-training\trainers-work>git pull
+c:\python-training\trainers-work>git pull
 ```
 
 ### Note: 
@@ -90,7 +90,7 @@ c:\react-native-training\trainers-work>git pull
 * to upload your content 
 
 ```cmd
-c:\react-native-training\my-work>git-update remark-for-this-update
+c:\python-training\my-work>git-update remark-for-this-update
 ```
 
 
